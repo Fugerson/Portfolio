@@ -13,7 +13,6 @@ const smartgrid = require('smart-grid');
 const isDev = (process.argv.indexOf('--dev') !== -1);
 const isProd = !isDev;
 const isSync = (process.argv.indexOf('--sync') !== -1);
-
 /*
 	1. browserSync для html
 	2. 
